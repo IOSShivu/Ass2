@@ -1,0 +1,16 @@
+let i,j,k :Int;
+var n=5,m :Int;
+m=n;
+for i in 1...5
+{
+  for j in 1...m
+  {
+      print(" ",terminator:" ");
+  }
+  for k in 1...i
+  {
+    print(" * ",terminator:" ");
+  }
+  m=m-1;
+  print("\n");
+}
