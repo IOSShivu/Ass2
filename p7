@@ -1,0 +1,25 @@
+let i,j,k :Int;
+for i in 1...5
+{
+  for k in 1..<i
+  {
+    print(" ",terminator:" ");
+  }
+  for j in i...5
+  {
+    print(" * ",terminator:" ");
+  }
+  print("\n");
+}
+for i in (1...5).reversed()
+{
+  for k in 1..<i
+  {
+    print(" ",terminator:" ");
+  }
+  for j in i...5
+  {
+    print(" * ",terminator:" ");
+  }
+  print("\n");
+}
