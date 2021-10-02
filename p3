@@ -1,0 +1,16 @@
+let i,j :Int;
+for i in 0..<5
+{
+    for j in 0..<5
+    {
+      if(j<(5-i-1))
+      {
+         print("  ",terminator:" ");
+      }
+      else
+      {
+        print(" *",terminator:" ");
+      }
+    }
+  print("\n");
+}
